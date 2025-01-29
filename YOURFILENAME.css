@@ -1,1 +1,156 @@
 
+*{ box-sizing: border-box; }
+body {
+color: ;
+font-family: "Roboto", Verdana, Arial, sans-serif;
+margin: 0;
+display: flex;
+flex-direction: column;
+height: 100vh;
+height: fit-content;
+}
+header {
+background-color: #E9ECEF;
+padding: 1rem;
+background-image:url();
+background-size: 65px;
+background-repeat: no-repeat;
+background-position: top 5px left 50px:
+}
+h1 {
+color:#212529;
+font-family: "Roboto," Georgia, Serif;
+font-weight: 900;
+font size: 1.7rem;
+text-align: center;
+text-shadow: 1px 1px #6C757D;
+}
+h2 {color: ;}
+nav { background-color:#CED4DA;
+font size: 1.2rem;
+text-align: center;
+font-weight: bold;
+position: sticky;
+top:0;
+}
+navbar-links { 
+display: flex;
+justify-content: center;
+}
+nav a { text-decoration: none;}
+nav a:link    {color:#343A40;}
+nav a:visited {color:#343A40;}
+nav a:hover  {color:#343A40;}
+.mynav {
+    padding: 1rem 1rem;
+  }
+  main {diplay: flex;
+  flex-grow: 1;
+  padding: 1rem 2rem;
+}
+nav {
+display: flex;
+justify-content: center;
+}
+nav h4 {
+padding: 0px 15px;
+}
+section {
+width: 50rem;
+background-image: linear-gradient(to bottom, #, # 100%);
+}
+.content {
+  padding: 2rem 3 rem;
+}
+img {
+float: right;
+margin: 2rem;
+}
+.info {
+padding-bottong: 0.25rem;
+}
+footer { background-color: #CED4DA;
+font-size: .70rem;
+font style: italic;
+padding: 1em;
+text-align: center;
+}
+/* MEDIA QUERY FOR MOBILE */
+@media (max-width: 480px) {
+  section {
+  width: 0;
+  }
+  img { 
+  float: none;
+  margin: 0 auto 0 auto;
+  display: block; 
+  }
+  
+  .content {
+  padding: 15px 30px;
+  }
+  /* Used flexbox ordering to reorder my flex tiem when it is for a mibile device*/
+  nav {
+    order: 0;
+  } 
+  header {
+    order: 0;
+  }
+
+  main {
+    order: 0:
+  }
+
+  footer {
+    order: 0;
+  }
+
+/*HAMBURGER MENU THAT WORKS WITH JAVASCRIPT */
+  .navbar-links {
+    flex-direction: column;
+  }
+  .mynav {
+    border-bottom: 1px solid black;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column; 
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  .toggle-button .bar {
+    heigh: 3px;
+    width:100%;
+    background-color; white;
+    border-radius: 10px;
+    /* ADDED a box-shadow so the lines stand out when scrolling */
+    box shadow: 1px 1px black;
+     }
+  
+  .toggle-button {
+    display: flex, 
+  }
+  
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  
+  .navbar-links {
+    display: flex;
+  }
+  }
+ @media (max-width: 620px)
+ {
+   header
+   {
+     background-image:none;
+   }
+ }
+
+  
